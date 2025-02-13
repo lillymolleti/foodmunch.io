@@ -222,3 +222,32 @@ due to css specificity it is not working
     width:270px;
     margin-bottom: 20px;
   }
+  .icon
+  {
+    color:#d0b200;
+    font-size:35px; 
+    /* given in font awesome documentation to adjust icon size */
+  }
+
+  .follow-us-section {
+    background-color: white;
+  }
+  .follow-us-section-heading {
+    text-align: center;
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+  }
+.follow-us-icon-container
+{
+    width:80px;
+    height:80px;
+    background-color:#faf7e8;
+    padding-top:22px;
+    padding-bottom:14px;
+    padding-right:16px;
+    padding-left:22px;
+    margin:15px;
+    border-radius:40px;
+}

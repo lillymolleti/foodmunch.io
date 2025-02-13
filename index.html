@@ -17,12 +17,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+        <!-- For icons -->
+        <script src="https://kit.fontawesome.com/f774a67450.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
             <a class="navbar-brand" href="#">
                 <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/food-munch-img.png"
                     class="food-munch-logo">
@@ -33,11 +35,11 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ml-auto">
-                    <a class="nav-link active" id="navItem1" href="#"> Why Choose Us? <span
+                    <a class="nav-link active" id="navItem1" href="#wcu-section"> Why Choose Us? <span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-link" id="navItem2" href="#">Explore Menu </a>
-                    <a class="nav-link" id="navItem3" href="#"> Delivery & Payment </a>
-                    <a class="nav-link" id="navItem" href="#"> Follow Us </a>
+                    <a class="nav-link" id="navItem2" href="#menu-section">Explore Menu </a>
+                    <a class="nav-link" id="navItem3" href="#delivery-section"> Delivery & Payment </a>
+                    <a class="nav-link" id="navItem" href="#follow-section"> Follow Us </a>
                 </div>
             </div>
         </nav>
@@ -50,7 +52,7 @@
 
             </div>
         </div>
-        <div class="wcu-section ">
+        <div class="wcu-section" id="wcu-section">
             <div class="container-fluid pt-4">
                 <div class="row">
                     <div class="col-12">
@@ -95,7 +97,7 @@
                 </div>
             </div>
         </div>
-        <div class="explore-menu-section">
+        <div class="explore-menu-section" id="menu-section">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-12">
@@ -248,7 +250,7 @@
                 </div>
             </div>
         </div>
-        <div class="container delivery-and-payment-section pt-5 pb-5 d-flex">
+        <div class="container delivery-and-payment-section pt-5 pb-5 d-flex" id="delivery-section">
             <div class="row">
                 <div class="col-12 col-md-5 order-1 order-md-2">
                     <div class="text-center">
@@ -310,8 +312,31 @@
               </div>
             </div>
           </div>
+          <div class="follow-us-section pt-5 pb-5" id="follow-section">
+            <div class="container">
+              <div class="row">
+                <div class="col-12">
+                  <h1 class="follow-us-section-heading">Follow Us</h1>
+                </div>
+                <div class="col-12">
+                  <div class="d-flex flex-row justify-content-center">
+                    <div class="follow-us-icon-container">
+                      <i class="fab fa-twitter icon"></i>
+                    </div>
+                    <div class="follow-us-icon-container">
+                      <i class="fab fa-instagram icon"></i>
+                    </div>
+                    <div class="follow-us-icon-container">
+                      <i class="fab fa-facebook icon"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
       
-    </div>
+    </div>  
 
 
 </body>
